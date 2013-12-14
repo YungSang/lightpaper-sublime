@@ -3,8 +3,6 @@
 
 Adds a handy command and menu item to open your current file with [LightPaper.app](http://clockworkengine.com/).
 
-![screenshot](http://i.imgur.com/EEFy7Le.png)
-
 
 ## Installation Instructions
 
