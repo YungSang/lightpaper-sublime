@@ -19,3 +19,8 @@ class LightpaperCommand(sublime_plugin.WindowCommand):
 
     def is_enabled(self):
         return True
+
+    def is_visible(self):
+        view = sublime.active_window().active_view()
+        if view:
+            return view.settings().get('syntax') == 'Packages/Markdown/Markdown.tmLanguage'
